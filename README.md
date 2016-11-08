@@ -1,5 +1,5 @@
 # autocomplete
-This is an app I wrote to learn about trie data structures. 
+This is an app I wrote to learn about Python's `os` module and trie data structures' creation and retrieval. 
 
 When the server starts, the `get_files.py` file queries your local machine for all files and directories from the current directory downward. After scanning for files, `get_files.py` adds all the filepath strings to the prefix trie in the `trie.py` file and caches the trie on the server. When you type a prefix into the box in the browswer, it populates a list of autocomplete options from the prefix trie cached on the server. 
 
